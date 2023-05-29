@@ -7,7 +7,7 @@ import { todoRouter } from "./routers/todo";
  * All routers added in /api/routers should be manually added here.
  */
 export const appRouter = createTRPCRouter({
-  example: todoRouter,
+  todo: todoRouter,
 });
 
 // export type definition of API
